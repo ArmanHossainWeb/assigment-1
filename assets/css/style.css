@@ -1,0 +1,285 @@
+/* fira sans fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* common code  */
+body{
+    background-color: rgb(238, 232, 232);
+}
+* {
+    box-sizing: border-box;
+  }
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+.btn{
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    padding: 13px 26px 13px 26px;
+    border: none;
+}
+/* nav section   */
+#nav{
+    display: flex;
+    justify-content: space-between;
+}
+#nav .navLogo h1{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+}
+/* header section  */
+#hero{
+    display: flex;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    padding: 100px 80px;
+}
+#hero .heroContent p{
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+#hero .heroContent h1{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+}
+/* future section  */
+#future{
+    margin-top: 80px;
+}
+#future .futureContent h1{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+#future .futureContent p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+#future .futureBox{
+    display: flex;
+    gap: 24px;
+}
+#future .Card{
+    box-sizing: border-box;
+    border-radius: 16px;
+    padding: 32px;
+    
+}
+#future .Card h1{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+#future .Card p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+/* Quote section  */
+#Quote {
+    margin-top: 50px;
+}
+#Quote .box{
+    padding: 48px;
+    box-sizing: border-box;
+    
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+
+background: rgb(255, 255, 255);
+}
+#Quote .box h2{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0 auto;
+}
+#Quote .box h1{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+#Quote .box p{
+    color: rgba(14, 14, 14, 0.6);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+/* news section  */
+#news h1{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+#news p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+#news .newsBox {
+    display: flex;
+    
+}
+#news .newsBox img{
+    border-radius: 24px;
+}
+#news .newsContent{
+    display: flex;
+    flex-direction: column;
+}
+#news .newsContent h1{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+}
+#news .newsContent img{
+    width: 134px;
+    height: 40px;
+    
+}
+#news .newsContent h2{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    display: inline;
+}
+#news .newsContent span{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    display: inline;
+    
+}
+#news .newsContent p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+/* donate section  */
+#donate .donateHeading h1{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+}
+#donate .donateHeading p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    max-width: 80%;
+    margin: 0 auto;
+}
+#donate .doanteCard{
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 0 auto;
+}
+#donate .doanteCard h3{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+}
+#donate .DonateInput input{
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 32px 0px;
+    padding: 20px 40px 20px 40px;
+    width: 100%;
+    border: none;
+}
+/* newsLetter section  */
+#newsLetter{
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    padding: 80px 100px 80px 100px;
+    margin-top: 50px;
+}
+#newsLetter .Heading h2{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+}
+#newsLetter .Heading p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+#newsLetter .Input{
+    text-align: center;
+}
+#newsLetter .Input input{
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+    padding: 20px 80px;
+    text-align: center;
+    border: none;
+}
+#newsLetter .Input p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+}
