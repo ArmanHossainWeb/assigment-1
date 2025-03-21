@@ -27,6 +27,7 @@ body{
 #nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 #nav .navLogo h1{
     color: rgb(14, 14, 14);
@@ -149,10 +150,14 @@ background: rgb(255, 255, 255);
 }
 #news .newsBox {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     
 }
 #news .newsBox img{
     border-radius: 24px;
+    padding-right: 10px;
+    height: 360px;
 }
 #news .newsContent{
     display: flex;
@@ -161,9 +166,8 @@ background: rgb(255, 255, 255);
 #news .newsContent h1{
     color: rgba(14, 14, 14, 0.8);
     font-family: Fira Sans;
-    font-size: 32px;
+    font-size: 38px;
     font-weight: 700;
-    line-height: 38px;
 }
 #news .newsContent img{
     width: 134px;
@@ -175,7 +179,6 @@ background: rgb(255, 255, 255);
     font-family: Fira Sans;
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
     display: inline;
 }
 #news .newsContent span{
@@ -183,7 +186,6 @@ background: rgb(255, 255, 255);
     font-family: Fira Sans;
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
     display: inline;
     
 }
@@ -192,7 +194,6 @@ background: rgb(255, 255, 255);
     font-family: Fira Sans;
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
 }
 /* donate section  */
 #donate .donateHeading h1{
@@ -231,6 +232,9 @@ background: rgb(255, 255, 255);
     background: rgb(255, 255, 255);
     padding: 40px;
 }
+#donate .DonateInput button{
+    margin-left: 550px;
+}
 #donate .DonateInput input{
     color: rgba(14, 14, 14, 0.3);
     font-family: Fira Sans;
@@ -241,6 +245,7 @@ background: rgb(255, 255, 255);
     padding: 20px 40px 20px 40px;
     width: 100%;
     border: none;
+    border-radius: 10px;
 }
 /* newsLetter section  */
 #newsLetter{
